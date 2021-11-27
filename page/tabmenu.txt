@@ -1,0 +1,1 @@
+document.write('<div id="menukiri"><ul><li><a href="menu.html"> Home</a></li><li><a href="index.php">Masuk</a></li><li><a href="contact.html">Kontak</a></li></ul></div>')

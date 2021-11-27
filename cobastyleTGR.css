@@ -1,0 +1,246 @@
+.boxutama{ /* menggunakan "." maka di html menggunakan "class =" */
+	height: 300px;
+	width: 800px;
+	position: absolute;
+	margin-left: -400px; /*sesuaikan sama lebar*/
+	left: 50%;
+}
+
+.tengah {
+	display: grid;
+	grid-template-columns: 20% auto;
+}
+
+.atas h1{
+	font-family: 'lobster';
+	font-size: 40px;
+	color: white;
+}
+
+h4{
+	color: white;
+}
+
+h2{
+	text-align: center;
+	color: white;
+}
+
+.atas{
+	
+	padding-top: 5px;
+	text-align: center;
+	line-height: 21px;
+	height: 150px;
+	background-image: url(img/back.jpg);
+}
+
+.bawah {
+	position: fixed;
+	bottom: 0;
+	clear: both;
+	width: 800px;
+	height: 25px;
+	background-color:  #027902;
+	
+}
+.bawah b {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 10px 0 0 15px;
+	color: white;
+}
+
+
+#artikel {
+	/*float: right;*/
+	border: 1px solid  #027902;
+	margin-left: 10 px;
+	background-color: black;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+
+}
+
+#artikel p {
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: justify;
+	font-weight: bold;
+	font-family: Times New Roman;
+	color: white;
+}
+
+#menukiri {
+	float: left;
+
+}
+#menukiri ul { /* menggunakan "#" maka di html menggunakan "id=" */
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#menukiri a {
+	padding: 5px;
+	display: block;
+	background: #027902;
+	margin: 0px 0px 1px 0px;
+	color: white;
+}
+#menukiri a:hover {
+	background: blue;
+}
+
+#menukiri a:link a:visited a:active {
+	padding: 15px;
+	text-decoration: none;
+}
+
+body {
+	background-image: url(img/batikabu.jpg);
+	background-size: cover;
+	background-repeat: repeat-x repeat-y;
+}
+
+@font-face {
+	font-family: CevicheOneR;
+	src: url(CevicheOne-Regular.ttf);
+}
+@font-face {
+	font-family: lobster;
+	src: url(Lobster-Regular.ttf);
+}
+
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+  
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.text01{
+	text-align: left;
+	font-weight: bold;
+	font-family: Times New Roman;
+	color: white;
+}
+
+.text02{
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: left;
+	font-family: Times New Roman;
+	color: white;
+}
+
+.gendertxt{
+	margin-right: 2%;
+	text-align: left;
+	font-family: Times New Roman;
+	color: white;
+}
+
+input[type=text], input[type=password] {
+	width: 95%;
+	padding: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 5px;
+	margin-bottom: 22px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.reglogbtn {
+  background-color: #00cc00;
+  color: white;
+  padding: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: none;
+  cursor: pointer;
+  width: 95%;
+  opacity: 0.9;
+}
+
+.reglogbtn:hover {
+	opacity: 1;
+  }
+
+input[type="radio"] {
+  margin-left: 2%;
+  padding: 15px;
+}
+
+a {
+	color: #00cc00;
+  }
+
+.batalkembalibtn {
+  background-color: #cc0000;
+  color: white;
+  padding: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: none;
+  cursor: pointer;
+  width: 95%;
+  opacity: 0.9;
+}
+
+.batalkembalibtn:hover {
+	opacity: 1;
+  }
+
+.social-media-button.icon:before {
+    font-family: "FontAwesome";
+    padding-right: 0.5em;
+}
+
+.social-media-button.icon.youtube:before {
+    content: "\f167";
+}
+.social-media-button.youtube {
+    background: #cd201f;
+	color: white;
+	padding: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border: none;
+	cursor: pointer;
+	width: 95%;
+	opacity: 0.9;
+}
+
+.social-media-button.icon.instagram:before {
+    content: "\f16d";
+}
+.social-media-button.instagram {
+    background: #517fa4;
+	color: white;
+	padding: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border: none;
+	cursor: pointer;
+	width: 95%;
+	opacity: 0.9;
+}
